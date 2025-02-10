@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NumeroFactorial</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="input-user">
+        <h1>¡Averigua el factorial de un número!</h1>
+        <div>
+            <form action="">
+                <div class="form-group">
+                    <label class="input-label" for="numberFactorial">Escribe aquí tu número: </label>
+                    <br>
+                    <input class="input-camp" type="text" id="numero" name="numero" placeholder="Ingresa un valor" required>
+                </div>
+                <br><br>
+                <button class="convert-btn" id="convert">Factorial</button>
+            </form>
+        </div>
+    </section>
+    <section class="show-conversion">
+        <div>
+            <h2>Resultado</h2>
+            <h3>Factorial de tu numero:</h3>
+            <p id="factorialValue">0</p>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
